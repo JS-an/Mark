@@ -18,7 +18,7 @@ import './element-variables.scss'
 Vue.use(Element)
 ```
 全部变量如下：
-
+```scss
 /* Element Chalk Variables */
 
 /* Transition
@@ -732,3 +732,4 @@ $--breakpoints-spec: (
 'lg-and-down': (max-width: $--xl - 1),
 'xl-only' : (min-width: $--xl),
 );
+```
